@@ -20,6 +20,7 @@
 body
 {
     font-family: Roboto, serif;
+    background-color:var(--main-color-white);
 }
 .list
 {
@@ -150,6 +151,7 @@ body
     color:var(--main-color-white);
     background: var(--main-color-blue);
     font-family: Roboto, serif;
+    cursor: pointer;
 }
 
 .button-h-one:focus
