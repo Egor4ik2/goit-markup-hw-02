@@ -20,7 +20,7 @@
 body
 {
     font-family: Roboto, serif;
-    background-color:var(--main-color-white);
+    background-color: var(--main-color-white);
 }
 .list
 {
@@ -29,6 +29,8 @@ body
 .color-title
 {
     color:var(--main-color-text);
+    letter-spacing: 0.02em;
+    font-weight: 600;
 }
 /* logo design */
 .color-web
@@ -38,6 +40,7 @@ body
     color:var(--main-color-blue);
     font-size: 18px;
     line-height: 1.3;
+    font-weight: 800;
     text-decoration: none;
 }
 
@@ -52,6 +55,7 @@ body
     color:var(--main-color-text);
     font-size: 18px;
     line-height: 1.3;
+    font-weight: 800;
     text-decoration: none;
 }
 
@@ -66,7 +70,8 @@ body
 {
     font-size: 16px;
     line-height: 1.5;
-    
+    letter-spacing: 0.02em;
+    font-weight: 600;
 }
 
 .studio
@@ -75,7 +80,7 @@ body
     color: var(--main-color-text);
 }
 
-.studio:focus
+.studio:focus, .studio:hover
 {
     color:var(--main-color-focus);
 }
@@ -86,7 +91,7 @@ body
     color: var(--main-color-text);
 }
 
-.portfolio:focus
+.portfolio:focus, .portfolio:hover
 {
     color:var(--main-color-focus);
 }
@@ -98,7 +103,7 @@ body
     color: var(--main-color-text);
 }
 
-.support:focus
+.support:focus, .support:hover
 {
     color:var(--main-color-focus);
 }
@@ -110,6 +115,7 @@ body
 {
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .mail
@@ -117,7 +123,7 @@ body
     color:var(--second-color-text);
     text-decoration:none;
 }
-.mail:focus
+.mail:focus, .mail:hover
 {
     color:var(--main-color-focus);
 }
@@ -127,7 +133,7 @@ body
     color:var(--second-color-text);
     text-decoration:none;
 }
-.tel:focus
+.tel:focus, .tel:hover
 {
     color:var(--main-color-focus);
 }
@@ -144,6 +150,11 @@ body
 {
     text-align: center;
     color:var(--main-color-white);
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+
 }
 
 .button-h-one
@@ -152,9 +163,11 @@ body
     background: var(--main-color-blue);
     font-family: Roboto, serif;
     cursor: pointer;
+    font-weight: 600;
+    letter-spacing: 0.04em
 }
 
-.button-h-one:focus
+.button-h-one:focus, .button-h-one:hover
 {
     color:var(--main-color-focus);
 }
@@ -167,6 +180,7 @@ body
     color: var(--second-color-text);
     font-size: 16px;
     line-height: 1.5;
+    font-weight: 600;
     letter-spacing: 0.02em;
 }
 
@@ -179,6 +193,8 @@ body
     text-align: center;
     font-size: 36px;
     line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: 0.02em;
 }
 
 /* section 4 */
@@ -186,6 +202,8 @@ body
 .our-team
 {
     text-align: center;
+    font-weight: 600;
+    letter-spacing: 0.02em;
 }
 
 .color-p
@@ -214,10 +232,127 @@ body
     color:var(--color-cloud);
     font-size: 18px;
     line-height: 1.3;
+    font-weight: 800;
     text-decoration: none;
 }
 
-.studio-second:focus
+.studio-second:focus, .studio-second:hover
 {
     color:var(--main-color-focus);
+}
+
+
+/* Portfolio design */
+
+
+
+/* section 1*/
+.nav-portfolio
+{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    
+}
+.nav-all
+{
+    color: var(--main-color-blue);
+    background: var(--color-cloud);
+    width: 69px;
+    height: 48px;
+    cursor: pointer;
+}
+.nav-all:hover, .nav-all:focus
+{
+    color:var(--main-color-white);
+    background: var(--main-color-blue);
+}
+
+.web-site
+{
+    color:var(--main-color-blue);
+    background: var(--color-cloud);
+    width: 116px;
+    height: 48px;
+    cursor: pointer;
+}
+
+.web-site:focus, .web-site:hover
+{
+    color:var(--main-color-white);
+    background: var(--main-color-blue);
+}
+
+.app
+{
+    color:var(--main-color-blue);
+    background: var(--color-cloud);
+    width: 78px;
+    height: 48px;
+    cursor:pointer;
+}
+
+.app:focus, .app:hover
+{
+    color:var(--main-color-white);
+    background: var(--main-color-blue);
+}
+
+.design
+{
+    color:var(--main-color-blue);
+    background: var(--color-cloud);
+    width: 101px;
+    height: 48px;
+    cursor: pointer;
+}
+
+.design:focus, .design:hover
+{
+    color:var(--main-color-white);
+    background: var(--main-color-blue);
+}
+
+.marketing
+{
+    color:var(--main-color-blue);
+    background: var(--color-cloud);
+    width: 126px;
+    height: 48px;
+    cursor:pointer;
+}
+
+.marketing:focus, .marketing:hover
+{
+    color:var(--main-color-white);
+    background: var(--main-color-blue); 
+}
+
+
+/* section 2 */
+
+.h-two
+{
+    color:var(--main-color-text);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.p-portfolio
+{
+    color:var(--second-color-text);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.p-portfolio-second
+{
+    color: var(--color-cloud);
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
 }
