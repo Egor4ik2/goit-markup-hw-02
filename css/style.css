@@ -19,6 +19,7 @@
 /* оформлення боді*/
 body
 {
+    color:var(--main-color-text);
     font-family: Roboto, serif;
     background-color: var(--main-color-white);
 }
