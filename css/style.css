@@ -386,3 +386,9 @@ body
     line-height: 24px;
     letter-spacing: 0.02em;
 }
+
+.project
+{
+    text-indent: -9999em;
+    outline: 0;
+}
