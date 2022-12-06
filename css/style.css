@@ -198,6 +198,14 @@ body
 
 /* section 3 */
 
+.color-card
+{
+    background-color: var(--main-color-white);
+}
+.card-bgc
+{
+    background-color: var(--color-of-card);
+}
 
 .about-us
 {
