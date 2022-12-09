@@ -18,17 +18,36 @@
 /* #E7E9FC цвет текста футера */
 /* #F4F4FD цевт сецкии с карточками */
 
+
 /* оформлення боді*/
+
 body
 {
     color:var(--main-color-text);
     font-family: Roboto, sans-serif;
     background-color: var(--main-color-white);
 }
+
+p
+{
+    margin: 0;
+}
+
+.container
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1158px;
+    
+}
+
 .list
 {
+    margin-top: 0;
+    margin-bottom: 0;
     list-style: none;
 } 
+
 .color-title
 {
     color:var(--main-color-text);
@@ -36,7 +55,11 @@ body
     font-weight: 600;
     font-size: 20px;
 }
+
+
 /* logo design */
+
+
 .color-web
 {
     
@@ -64,12 +87,9 @@ body
     text-transform: uppercase;
 }
 
-/* .studio-title:focus
-{
- color:var(--main-color-focus);
-} */
-
 /* navigation design */
+
+
 
 .navigation
 {
@@ -146,14 +166,21 @@ body
 
 /* section 1 */
 
+
+
 .section-title
 {
+    margin-bottom: 120px;
+    text-align:center;
+    height: 603px;
     background-color:var(--main-color-text);
 }
 
 .title-h-one
 {
-    text-align: center;
+    padding-top: 192px;
+    padding-bottom: 48px;
+    margin:0;
     color:var(--main-color-white);
     font-weight: 600;
     font-size: 56px;
@@ -164,6 +191,9 @@ body
 
 .button-h-one
 {
+    min-width: 170px;
+    border-radius: 4px;
+    padding: 16px 32px;
     color:var(--main-color-white);
     background: var(--main-color-blue);
     font-family: Roboto, serif;
@@ -171,11 +201,13 @@ body
     font-weight: 600;
     letter-spacing: 0.04em;
     font-size: 16px;
+    border:1px solid transparent;
 }
 
 .button-h-one:focus, .button-h-one:hover
 {
     background-color:var(--button-h-one-focus);
+    
 }
 
 
@@ -196,6 +228,11 @@ body
     font-size: 16px;
 }
 
+.about
+{
+    margin-bottom: 8px;
+    margin-top: 0;
+}
 /* section 3 */
 
 .color-card
@@ -207,8 +244,9 @@ body
     background-color: var(--color-of-card);
 }
 
-.about-us
+.about-us 
 {
+
     text-align: center;
     font-size: 36px;
     line-height: 1.1;
@@ -216,10 +254,19 @@ body
     letter-spacing: 0.02em;
 }
 
+.we
+{
+    margin-top: 120px;
+    margin-bottom: 72px;
+}
+
 /* section 4 */
 
 .our-team
 {
+    padding-bottom: 72px;
+    padding-top: 120px;
+    margin: 0;
     text-align: center;
     font-weight: 600;
     letter-spacing: 0.02em;
@@ -236,21 +283,31 @@ body
     
 }
 
+
 .guys
 {
     font-size: 20px;
 }
 
+.team
+{
+    
+    margin-top: 0;
+    margin-bottom: 8px;
+}
 
 /* footer */
 
 .footer
 {
+    
+    padding-top: 100px;
     background-color:var(--main-color-text);
     color:var(--color-cloud);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    height: 310px;
 }
 
 .studio-second
@@ -264,27 +321,31 @@ body
     text-transform: uppercase;
 }
 
-/* .studio-second:focus, .studio-second:hover
-{
-    color:var(--main-color-focus);
-} */
+
 
 
 /* Portfolio design */
 
 
 
+
 /* section 1*/
+
+
+
 .nav-portfolio
 {
     font-weight: 600;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    
+    margin-bottom: 72px;
+    margin-top:92px;
 }
 .nav-all
 {
+    border:1px solid transparent;
+    border-radius: 4px;
     color: var(--main-color-blue);
     background: var(--color-cloud);
     width: 69px;
@@ -301,6 +362,8 @@ body
 
 .web-site
 {
+    border-radius: 4px;
+    border:1px solid transparent;
     color:var(--main-color-blue);
     background: var(--color-cloud);
     width: 116px;
@@ -318,6 +381,8 @@ body
 
 .app
 {
+    border-radius: 4px;
+    border:1px solid transparent;
     color:var(--main-color-blue);
     background: var(--color-cloud);
     width: 78px;
@@ -335,6 +400,8 @@ body
 
 .design
 {
+    border-radius: 4px;
+    border:1px solid transparent;
     color:var(--main-color-blue);
     background: var(--color-cloud);
     width: 101px;
@@ -352,6 +419,8 @@ body
 
 .marketing
 {
+    border-radius: 4px;
+    border:1px solid transparent;
     color:var(--main-color-blue);
     background: var(--color-cloud);
     width: 126px;
@@ -370,8 +439,12 @@ body
 
 /* section 2 */
 
+
 .h-two
 {
+
+    margin-top:32px;
+    margin-bottom: 8px;
     color:var(--main-color-text);
     font-weight: 600;
     font-size: 20px;
@@ -397,6 +470,7 @@ body
 
 .project
 {
+    margin: 0;
     text-indent: -9999em;
     outline: 0;
 }
